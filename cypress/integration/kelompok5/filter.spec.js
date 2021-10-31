@@ -62,7 +62,7 @@ describe('Filter Web Test', ()=>{
       cy.get('.inventory_item_name:eq(0)').should('have.text', "Sauce Labs Fleece Jacket");
     });
 
-    it('Mencoba melihat detail produk', () => {
+    it('Melihat detail produk', () => {
       cy.get('#user-name').type('standard_user');
       cy.get('#password').type('secret_sauce');
       cy.get('#login-button').click();
@@ -70,7 +70,7 @@ describe('Filter Web Test', ()=>{
       //Assertion
       cy.url().should('include', '/inventory.html');
 
-      //Melihat detail produk
+      //Melihat detail produk 
       cy.get('#item_5_title_link').click();
     });
 })
