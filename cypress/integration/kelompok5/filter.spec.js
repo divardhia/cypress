@@ -70,7 +70,7 @@ describe('Filter Web Test', ()=>{
       //Assertion
       cy.url().should('include', '/inventory.html');
 
-      //Menggunakan Filter Harga Tertinggi-Terendah (Price High-Low)
+      //Melihat detail produk
       cy.get('#item_5_title_link').click();
     });
 })
