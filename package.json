@@ -1,0 +1,23 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "pengujian perangkat lunak",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^8.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divardhia/cypress.git"
+  },
+  "author": "diva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/divardhia/cypress/issues"
+  },
+  "homepage": "https://github.com/divardhia/cypress#readme"
+}
