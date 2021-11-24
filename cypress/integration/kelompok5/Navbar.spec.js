@@ -14,23 +14,11 @@ describe('Navbar', ()=>{
         cy.get('#inventory_sidebar_link').click();
     });
     
-    
-    it('About', () => {
-        cy.get('#react-burger-menu-btn').click();
-        cy.get('#about_sidebar_link').click();
-    
-      //Assertion
-       
-        
-    });
-    
     it('Logout', () => {
         cy.get('#react-burger-menu-btn').click();
         cy.get('#logout_sidebar_link').click();
-    
+
         //Assertion
-        
-    
     });
     
     
@@ -40,6 +28,15 @@ describe('Navbar', ()=>{
     
       //Assertion
         cy.get('button[name = "add-to-cart-sauce-labs-backpack"]').should('be.visible');
+    });
+
+    it('About', () => {
+        cy.get('#react-burger-menu-btn').click();
+        cy.get('#about_sidebar_link').click();
+    
+      //Assertion
+       
+        
     });
      
 });
